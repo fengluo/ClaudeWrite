@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Organize Attachments",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "file:organize"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "clear": true
+      },
+      "group": {
+        "kind": "none"
+      }
+    },
+    {
+      "label": "Workspace Stats",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "stats:overview"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "clear": true
+      },
+      "group": {
+        "kind": "none"
+      }
+    },
+    {
+      "label": "Initialize Workspace",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "init"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "clear": true
+      },
+      "group": {
+        "kind": "none"
+      }
+    }
+  ]
+}

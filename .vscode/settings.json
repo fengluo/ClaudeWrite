@@ -1,0 +1,71 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/.DS_Store": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true,
+    "**/05_Attachments/videos/**": true,
+    "**/.backup/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/04_Archive": false
+  },
+  "markdown.preview.fontSize": 16,
+  "markdown.preview.lineHeight": 1.8,
+  "markdown.preview.breaks": true,
+  "markdown.preview.linkify": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "on",
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    },
+    "editor.acceptSuggestionOnEnter": "on"
+  },
+  "foam.openDailyNote.directory": "06_Meta/Reviews/daily",
+  "foam.openDailyNote.fileExtension": "md",
+  "foam.openDailyNote.titleFormat": "'Daily Review -' yyyy-MM-dd",
+  "foam.files.ignore": [
+    "**/node_modules/**",
+    "**/.vscode/**",
+    "**/.backup/**",
+    "**/04_Archive/**"
+  ],
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.suggestSmartCommit": false,
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "NOTE",
+    "IDEA",
+    "RESEARCH",
+    "QUESTION"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "check",
+    "type": "text-and-comment"
+  },
+  "cSpell.language": "en,zh-CN",
+  "cSpell.enableFiletypes": [
+    "markdown"
+  ],
+  "workbench.colorCustomizations": {},
+  "files.associations": {
+    "*.md": "markdown"
+  },
+  "files.defaultLanguage": "markdown"
+}
