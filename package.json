@@ -6,11 +6,18 @@
   "scripts": {
     "init": "node scripts/setup/init-workspace.js",
     "file:organize": "node scripts/file-management/organize-attachments.js",
+    "file:orphans": "node scripts/file-management/find-orphans.js",
+    "file:compress": "node scripts/file-management/compress-images.js",
     "stats": "node scripts/stats/workspace-stats.js",
     "stats:overview": "node scripts/stats/workspace-stats.js --overview",
     "stats:tags": "node scripts/stats/workspace-stats.js --tags",
-    "stats:words": "node scripts/stats/workspace-stats.js --words",
-    "help": "node -e \"console.log('📚 Available commands:\\\\n\\\\n  npm run init           - Initialize workspace\\\\n  npm run file:organize  - Organize attachments\\\\n  npm run stats          - Generate workspace statistics\\\\n  npm run stats:overview - Quick overview\\\\n  npm run stats:tags     - Tag statistics\\\\n  npm run stats:words    - Word count statistics\\\\n')\""
+    "stats:words": "node scripts/stats/word-count.js",
+    "stats:activity": "node scripts/stats/activity-tracker.js",
+    "git:smart-commit": "node scripts/git/smart-commit.js",
+    "git:sync": "node scripts/git/auto-sync.js",
+    "web:save": "node scripts/web/save-article.js",
+    "web:batch": "node scripts/web/batch-save.js",
+    "help": "node -e \"console.log('📚 Available commands:\\\\n\\\\n  npm run init             - Initialize workspace\\\\n  npm run file:organize    - Organize attachments\\\\n  npm run file:orphans     - Find orphan attachments\\\\n  npm run file:compress    - Compress images\\\\n  npm run stats            - Generate workspace statistics\\\\n  npm run stats:overview   - Quick overview\\\\n  npm run stats:words      - Word count by project/tag\\\\n  npm run stats:activity   - Activity analysis\\\\n  npm run git:smart-commit - Smart git commit\\\\n  npm run git:sync         - Auto git sync\\\\n  npm run web:save         - Save web article\\\\n  npm run web:batch        - Batch save articles\\\\n')\""
   },
   "keywords": [
     "claude",
