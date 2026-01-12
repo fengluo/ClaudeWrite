@@ -1,6 +1,6 @@
-# VSCode + Claude 内容创作系统
+# Claude Write
 
-> 基于 VSCode 和 Claude Code 的 AI 驱动知识管理与内容创作平台，采用 PARA 方法组织内容
+> AI 驱动的内容创作与知识管理系统，基于 VSCode + Claude Code，采用 PARA 方法组织内容
 
 ## 特性
 
@@ -25,7 +25,7 @@
 1. **克隆或下载此仓库**
    ```bash
    git clone [your-repo-url]
-   cd vscode-claude-workspace
+   cd claude-write
    ```
 
 2. **安装依赖**
@@ -73,7 +73,7 @@
 ## 文件夹结构
 
 ```
-vscode-claude-workspace/
+claude-write/
 ├── 00_Inbox/              # 快速捕获区 - 新想法和待处理内容
 ├── 01_Projects/           # 项目 - 有明确目标和截止日期的工作
 ├── 02_Areas/              # 领域 - 持续性责任区域
@@ -385,7 +385,7 @@ npm run web:batch -- urls.txt                       # 批量保存 URL 列表
 ```bash
 git init
 git add .
-git commit -m "Initial commit: VSCode + Claude workspace setup"
+git commit -m "Initial commit: Claude Write workspace setup"
 ```
 
 ### 推送到 GitHub
@@ -459,3 +459,7 @@ MIT License
 ---
 
 **开始你的知识管理之旅**: 运行 `npm run init` 或直接使用 `/quick-capture` 捕获第一个想法！
+
+---
+
+*Claude Write - 让 AI 成为你的思考伙伴，而不仅仅是打字机。*

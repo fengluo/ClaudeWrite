@@ -504,7 +504,7 @@ function initializeGit() {
   try {
     execSync('git init', { stdio: 'ignore' });
     execSync('git add .', { stdio: 'ignore' });
-    execSync('git commit -m "Initial commit: VSCode + Claude workspace setup"', { stdio: 'ignore' });
+    execSync('git commit -m "Initial commit: Claude Write workspace setup"', { stdio: 'ignore' });
     print('  ✓ Git 仓库初始化完成', 'green');
     return true;
   } catch (error) {
@@ -577,7 +577,7 @@ function showCompletion(config, env) {
 // 主函数
 async function main() {
   try {
-    printBox('VSCode + Claude 内容创作系统', 'bright');
+    printBox('Claude Write 内容创作系统', 'bright');
     printBox('初始化向导', 'cyan');
 
     // 1. 环境检测

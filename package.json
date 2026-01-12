@@ -1,7 +1,7 @@
 {
-  "name": "vscode-claude-workspace",
+  "name": "claude-write",
   "version": "1.0.0",
-  "description": "AI-powered content creation workspace with VSCode and Claude Code, using the PARA method for knowledge management",
+  "description": "Claude Write - AI-powered content creation and knowledge management system using PARA method",
   "main": "scripts/setup/init-workspace.js",
   "scripts": {
     "init": "node scripts/setup/init-workspace.js",
