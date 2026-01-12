@@ -451,7 +451,7 @@ ${config.purpose === 'pkm' || config.purpose === 'mixed' ? '- #想法 #洞察 #�
 2. **思考探索** - 使用 \`/thinking-partner\` 深入思考
 3. **整理分类** - 使用 \`/inbox-processor\` 处理收件箱
 4. **深入研究** - 使用 \`/research-assistant\` 研究主题
-5. **定期回顾** - 使用 \`/daily-review\` 每日反思
+5. **定期回顾** - 使用 \`/daily-review\` 每日反思，使用 \`/weekly-synthesis\` 每周总结
 
 ## Claude 行为准则
 
@@ -549,6 +549,7 @@ function showCompletion(config, env) {
   print('   /inbox-processor    - 整理收件箱', 'cyan');
   print('   /research-assistant - 深入研究', 'cyan');
   print('   /daily-review       - 每日回顾', 'cyan');
+  print('   /weekly-synthesis   - 每周综合', 'cyan');
 
   print('\n🛠️  可用的 npm 脚本', 'bright');
   print('─'.repeat(60), 'blue');
