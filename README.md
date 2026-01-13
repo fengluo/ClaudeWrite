@@ -111,10 +111,9 @@ claude-write/
 ├── 03_Resources/          # 资源 - 参考资料和知识库
 ├── 04_Archive/            # 归档 - 已完成或不活跃的内容
 ├── 05_Attachments/        # 附件 - 图片、文档、视频等
-├── 06_Meta/               # 元数据 - 模板、回顾、洞察、文档
+├── 06_Meta/               # 元数据 - 模板、回顾、文档
 │   ├── Templates/         # 笔记模板
 │   ├── Reviews/           # 每日/每周回顾
-│   ├── Insights/          # 思考洞察记录
 │   └── Docs/              # 系统文档
 ├── .claude/               # Claude Code 配置
 │   └── commands/          # 自定义命令

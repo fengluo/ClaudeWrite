@@ -86,7 +86,7 @@ async function main() {
     log('Detected standalone installation.', 'info');
     log('Automatic upgrade for standalone installations is not yet fully implemented.', 'warn');
     log('Recommended upgrade path:', 'info');
-    console.log('1. Backup your 00-05 directories and 06_Meta/Insights|Reviews');
+    console.log('1. Backup your 00-05 directories and 06_Meta/Reviews');
     console.log('2. Create a new workspace with the latest version');
     console.log('3. Migrate your content folders to the new workspace');
 

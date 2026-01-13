@@ -247,7 +247,7 @@
 2. 搜索工作区中的相关笔记
 3. 展示相关内容的连接
 4. 通过提问引导深入思考
-5. 记录洞察到 `06_Meta/Insights/`
+5. 记录洞察到相关上下文笔记（项目/领域/资源/收件箱）
 
 **示例对话**:
 ```
@@ -272,7 +272,7 @@ AI: 我在你的工作区中找到了 3 篇相关笔记:
 ```
 
 **输出**:
-- `06_Meta/Insights/2024-01-10-knowledge-systems.md` (思考记录)
+- 将洞察写回相关笔记（例如 `03_Resources/Knowledge-Systems.md` 的洞察区块）
 - 更新相关笔记的反向链接
 
 #### 写作模式 (Writing Mode)
@@ -433,7 +433,7 @@ AI: 分析过去 7 天的笔记...
 
 本周亮点笔记:
 - 01_Projects/Git-Hooks-Tutorial/final-draft.md (字数最多)
-- 06_Meta/Insights/automation-philosophy.md (反向链接最多)
+- 03_Resources/automation-philosophy.md (反向链接最多)
 
 下周建议:
 - 考虑将零散的自动化笔记整理为一个 Area
@@ -1192,7 +1192,7 @@ lastReviewed: 2024-01-10
    $ /thinking-partner
    "我想探索 RSC 的设计哲学"
    → AI 搜索相关笔记,引导思考
-   → 保存洞察到 06_Meta/Insights/
+   → 把洞察写回到相关笔记或新建到对应目录
 
 3. 深度研究
    $ /research-assistant

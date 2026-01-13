@@ -76,7 +76,7 @@ npm run web:save -- "URL" "03_Resources/Articles"
 资源应该通过双向链接连接到:
 - 相关项目 (`01_Projects/`)
 - 相关领域 (`02_Areas/`)
-- 洞察记录 (`06_Meta/Insights/`)
+- 相关上下文笔记中的洞察区块
 
 例如:
 ```markdown

@@ -243,7 +243,6 @@ function ensureFolderStructure() {
     '06_Meta/Reviews/daily',
     '06_Meta/Reviews/weekly',
     '06_Meta/Reviews/monthly',
-    '06_Meta/Insights',
     '06_Meta/Docs',
     'scripts/setup',
     'scripts/stats',
